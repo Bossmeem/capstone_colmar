@@ -1,0 +1,28 @@
+/* Universal styles */
+html {
+
+}
+
+/* header */
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+header .content {
+  display: flex;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+}
+/* footer */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
