@@ -113,19 +113,46 @@ main {
 /*information section */
 
 .info {
-  padding-left: 1.5rem;
-  padding-top: 2rem;
   width: 100%;
+  display: flex;
 }
 
-.bookman {
+.container {
   width: 60%;
+  padding-left: 1.5rem;
+  padding-top: 2rem;
+  padding-right: 1.5rem;
+
 }
 
 .bookman img {
   width: 100%;
   height: auto;
   box-shadow: .625rem .3125rem .625rem rgba(0, 0, 0, .5);
+}
+
+.pitch {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.pitch p {
+  padding-top: 1.5rem;
+
+}
+
+.features .widget {
+  width: 40%;
+}
+
+.widget .sm {
+  width: 35%;
+  height: auto;
+}
+
+.sm img {
+
+
 }
 /* footer */
 
