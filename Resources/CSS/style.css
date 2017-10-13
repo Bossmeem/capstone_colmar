@@ -3,6 +3,17 @@ html {
   font-size: 16px;
 }
 
+h1 {
+  font-size: 2.6rem;
+}
+
+h2 {
+  font-size: 2.3rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
 /* header */
 
 header {
@@ -24,7 +35,8 @@ header .content {
 
 .content figure {
   height: 2rem;
-  align-content: center;
+  display: flex;
+  align-items: center;
 }
 
 .content figure img {
@@ -77,15 +89,15 @@ main {
 .banner img {
   width: 100%;
   height: auto;
+  box-shadow: .625rem .3125rem .625rem rgba(0, 0, 0, .5);
 }
 
 .promo {
   text-align: center;
-  font-size: 2.2rem;
 
 }
 
-.promo h2, p {
+.promo h2, .promo p {
   margin-bottom: 2rem;
 }
 
@@ -93,8 +105,27 @@ main {
   border: .123rem solid rgba(185, 189, 155, .8);
   background-color: rgba(255, 255, 255, .8);
   color: rgba(64, 68, 35, 1);
+  border-radius: 2rem;
   padding: .5rem 4.5rem;
 
+}
+
+/*information section */
+
+.info {
+  padding-left: 1.5rem;
+  padding-top: 2rem;
+  width: 100%;
+}
+
+.bookman {
+  width: 60%;
+}
+
+.bookman img {
+  width: 100%;
+  height: auto;
+  box-shadow: .625rem .3125rem .625rem rgba(0, 0, 0, .5);
 }
 /* footer */
 
