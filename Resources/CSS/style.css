@@ -141,18 +141,33 @@ main {
 
 }
 
-.features .widget {
+.features {
   width: 40%;
+}
+
+.widget {
+  display: flex;
+  align-items: center;
 }
 
 .widget .sm {
   width: 35%;
   height: auto;
+  margin: 1rem;
 }
 
 .sm img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
 
+.features .widget:nth-child(2n) {
+  background-color: rgba(155, 166, 167, 1);
+}
 
+.text p {
+  padding: .5rem 0rem;
 }
 /* footer */
 
