@@ -1,6 +1,6 @@
 /* Universal styles */
 html {
-
+  font-size: 16px;
 }
 
 /* header */
@@ -9,20 +9,96 @@ header {
   position: fixed;
   width: 100%;
   z-index: 10;
+  top: 0;
 }
 
 header .content {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  height: 4rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
+.content figure {
+  height: 2rem;
+  align-content: center;
+}
+
+.content figure img {
+  height: 2rem;
+  width; auto;
+  flex-grow: 1;
+}
 header nav ul {
   display: flex;
+}
+
+.desktop li {
+  padding-left: 1rem;
+}
+/* main content of page */
+
+main {
+  top: 5rem;
+}
+
+/* banner img section */
+
+.jumbotron {
+  display: flex;
+  width: 100%;
+  margin-top: 4rem;
+  padding-left: 1.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  align-items: center;
+
+}
+
+.banner {
+  width: 60%;
+  margin-right: 2rem;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+}
+
+.promo {
+  text-align: center;
+}
+
+.promo h2, p {
+  margin-bottom: 2rem;
+}
+
+.promo a {
+  background-color: darkblue;
+  padding: .5rem 4.5rem;
+  
 }
 /* footer */
 
 footer {
+  border-top: .0625rem solid grey;
+}
+
+footer .content {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.footing ul {
+  display: flex;
+}
+
+.footing ul li {
+  padding-left: 1rem;
 }
