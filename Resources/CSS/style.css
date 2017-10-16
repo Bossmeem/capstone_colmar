@@ -5,14 +5,17 @@ html {
 
 h1 {
   font-size: 2.6rem;
+  color: rgba(38, 25, 47, 1)
 }
 
 h2 {
   font-size: 2.3rem;
+  color: rgba(38, 25, 47, 1);
 }
 
 h3 {
   font-size: 2rem;
+  color: rgba(38, 25, 47, 1)
 }
 /* header */
 
@@ -204,8 +207,6 @@ main {
 }
 
 .course figure img {
-
-  height: auto;
   object-fit: contain;
 }
 
@@ -234,20 +235,35 @@ main {
 
 .Thesis .misc {
   width: 40%;
+  border-left: .123rem solid rgba(185, 189, 155, 1);
 }
 
 .aside {
   display: flex;
+  align-items: center;
+
+}
+
+.aside:nth-child(2n+1) {
+  background-color: rgba(155, 166, 167, 1);
 }
 
 .tx {
   width: 35%;
-  height: auto;
   margin: 1rem;
+}
+
+.aside .tx img {
+  width: 100%;
+  object-fit: contain;
 }
 
 .blah {
   width: 65%;
+}
+
+.vid h3 , .blah h3 {
+  padding-bottom: .5rem;
 }
 /* footer */
 
