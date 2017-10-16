@@ -177,26 +177,77 @@ main {
 /* courses */
 
 .classy {
-  margin: 2rem auto;
+  padding-top: 2rem;
   text-align: center;
 }
 
 .courses {
   display: flex;
   flex-flow: wrap row;
+  justify-content: space-between;
   margin: 2rem 4.5rem;
+  background-color: rgba(155, 166, 167, .7);
 }
 
 .course {
   max-width: 30%;
   flex: 1 1;
-  margin-right: 2rem;
   margin-bottom: 2rem;
 }
 
+.course figure {
+  overflow: hidden;
+}
+
+#3,6 {
+  margin-right: 0rem;
+}
+
 .course figure img {
+
   height: auto;
-  object-fit: scale-down;
+  object-fit: contain;
+}
+
+.text {
+  margin: 1rem auto 1.5rem 1rem;
+}
+
+.text p {
+  padding-top: .5rem;
+}
+
+/* Thesis Exhibit */
+.Thesis {
+  display: flex;
+}
+
+.exhibit {
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.Thesis .vid {
+  width: 60%;
+  margin: 2rem 1.5rem;
+}
+
+.Thesis .misc {
+  width: 40%;
+}
+
+.aside {
+  display: flex;
+}
+
+.tx {
+  width: 35%;
+  height: auto;
+  margin: 1rem;
+}
+
+.blah {
+  width: 65%;
 }
 /* footer */
 
