@@ -3,6 +3,13 @@ html {
   font-size: 16px;
 }
 
+@media only screen and (max-width: 465px) {
+  html {
+    font-size: 12px;
+ }
+
+}
+
 h1 {
   font-size: 2.6rem;
   color: rgba(38, 25, 47, 1)
@@ -63,6 +70,22 @@ header nav ul {
 .desktop li {
   color: rgba(38, 25, 47, 1);
   padding-left: 1rem;
+}
+
+.mobile {
+  display: none;
+}
+
+
+@media only screen and (max-width: 465px){
+  header .content , .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+    width: 100%;
+  }
 }
 /* main content of page */
 
