@@ -163,6 +163,10 @@ main {
     margin-bottom: 1.714rem;
   }
 
+  .promo a {
+    margin-left: 25%;
+  }
+
 }
 
 /*information section */
@@ -403,6 +407,21 @@ main {
 .vid h3 , .blah h3 {
   padding-bottom: .5rem;
 }
+
+@media only screen and (max-width: 480px) {
+  .misc {
+    display: none;
+  }
+
+  .Thesis .vid {
+    width: 100%;
+    margin: 0 0 1.714rem 0;
+  }
+
+  .vid span {
+    display: none;
+  }
+}
 /* footer */
 
 footer {
@@ -424,4 +443,14 @@ footer .content {
 
 .footing ul li {
   padding-left: 1rem;
+}
+
+@media only screen and (max-width: 480px) {
+  .footing {
+    display: none;
+  }
+
+  footer .content {
+    padding: 1.142rem  0 1.142rem 1.142rem;
+  }
 }
