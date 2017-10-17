@@ -1,6 +1,7 @@
 /* Universal styles */
 html {
   font-size: 16px;
+  font-family: 'Cabin', sans-serif;
 }
 
 @media only screen and (max-width: 480px) {
@@ -129,7 +130,7 @@ main {
 
 }
 
-.promo h2, .promo p {
+.promo h1, .promo p {
   margin-bottom: 2rem;
 }
 
