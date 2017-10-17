@@ -3,7 +3,7 @@ html {
   font-size: 16px;
 }
 
-@media only screen and (max-width: 465px) {
+@media only screen and (max-width: 480px) {
   html {
     font-size: 12px;
  }
@@ -77,7 +77,7 @@ header nav ul {
 }
 
 
-@media only screen and (max-width: 465px){
+@media only screen and (max-width: 480px){
   header .content , .desktop {
     display: none;
   }
@@ -85,6 +85,12 @@ header nav ul {
   .mobile {
     display: block;
     width: 100%;
+}
+
+  header nav ul {
+    justify-content: space-around;
+    align-items: center;
+    height: 5.333rem;
   }
 }
 /* main content of page */
@@ -136,6 +142,21 @@ main {
 
 }
 
+@media only screen and (max-width: 480px) {
+  .jumbotron {
+    display: block;
+    padding: 0 0 2rem 0;
+  }
+
+  .banner {
+    width: 100%;
+    margin-right: 0; 
+  }
+
+  .promo {
+    margin-left: 1.333rem;
+  }
+}
 /*information section */
 
 .info {
