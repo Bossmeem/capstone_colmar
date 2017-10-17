@@ -320,8 +320,41 @@ main {
   padding-top: .5rem;
 }
 
+.txtmble {
+  display: none;
+}
+
 @media only screen and (max-width: 480px) {
-  
+  .classy {
+    padding-top: 2.285rem;
+  }
+
+  .courses {
+    display: block;
+    margin: 1.142rem 1.142rem 2.285rem 1.142rem;
+  }
+
+  .course {
+    max-width: 100%;
+    margin-bottom: 0.571rem;
+  }
+
+  .course figure {
+    display: none;
+  }
+
+  .texts {
+    display: none;
+  }
+
+  .txtmble {
+    display: block;
+    border-radius: 1rem;
+    border: .123rem solid rgba(185, 189, 155, .8);
+    background-color: rgba(255, 255, 255, .8);
+    color: rgba(64, 68, 35, 1);
+    padding: 1.142rem 0rem 1.714rem 1.142rem;
+  }
 }
 /* Thesis Exhibit */
 .Thesis {
