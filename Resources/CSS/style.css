@@ -238,6 +238,14 @@ main {
   padding: .5rem 0rem;
 }
 
+.widget a {
+  color: rgba(127, 132, 96, 1);
+}
+
+.features .widget a:nth-child(2n) {
+  color: rgba(175, 167, 180, 1);
+}
+
 @media only screen and (max-width: 480px) {
   .info  {
     display: block;
