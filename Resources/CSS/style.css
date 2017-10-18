@@ -301,20 +301,16 @@ main {
 
 .course {
   max-width: 30%;
-  flex: 1 1;
   margin-bottom: 2rem;
 }
 
-.course figure {
-  overflow: hidden;
-}
-
-#3,6 {
+#3, #6 {
   margin-right: 0rem;
 }
 
 .course figure img {
-  object-fit: contain;
+  width: 100%;
+  height: auto;
 }
 
 .course .texts {
