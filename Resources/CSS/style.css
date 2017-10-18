@@ -11,6 +11,12 @@ html {
 
 }
 
+@media only screen and (max-width: 780px) {
+  html {
+    font-size: 15px;
+  }
+}
+
 h1 {
   font-size: 2.6rem;
   color: rgba(38, 25, 47, 1)
@@ -104,7 +110,6 @@ main {
 
 .jumbotron {
   display: flex;
-  width: 100%;
   margin-top: 4rem;
   padding-left: 1.5rem;
   padding-top: 2rem;
@@ -208,6 +213,8 @@ main {
 .widget {
   display: flex;
   align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .widget .sm {
@@ -242,9 +249,7 @@ main {
   color: rgba(127, 132, 96, 1);
 }
 
-.features .widget a:nth-child(2n) {
-  color: rgba(175, 167, 180, 1);
-}
+
 
 @media only screen and (max-width: 480px) {
   .info  {
@@ -291,6 +296,12 @@ main {
     padding: 2rem 0rem;
   }
 
+}
+
+@media only screen and (orientation: portrait) {
+  .text p {
+    line-height: 1.2;
+  }
 }
 /* courses */
 
