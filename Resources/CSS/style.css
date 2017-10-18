@@ -4,6 +4,10 @@ html {
   font-family: 'Cabin', sans-serif;
 }
 
+h1, h2, h3, a {
+  font-weight: 700;
+}
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 14px;
@@ -344,6 +348,12 @@ main {
   display: none;
 }
 
+@media only screen and (orientation: portrait) {
+  .texts p {
+    line-height: 1.3;
+  }
+}
+
 @media only screen and (max-width: 480px) {
   .classy {
     padding-top: 2.285rem;
@@ -422,6 +432,12 @@ main {
 
 .vid h3 , .blah h3 {
   padding-bottom: .5rem;
+}
+
+@media only screen and (orientation: portrait) {
+  .blah p {
+    line-height: 1.2;
+  }
 }
 
 @media only screen and (max-width: 480px) {
